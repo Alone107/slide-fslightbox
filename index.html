@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная | Библиотека Джентельмен Клуб</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <script async="" src="js/tag.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+  </head>
+
+  <body>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(66108922, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript>
+      <div>
+        <img
+          src="https://mc.yandex.ru/watch/66108922"
+          style="position: absolute; left: -9999px"
+          alt=""
+        />
+      </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <a href="tel:83452332525">
+      <div class="pulse">
+        <img src="images/phone-call.svg" />
+      </div>
+    </a>
+    <header id="header-adaptive">
+      <div class="header_inner">
+        <nav class="nav">
+          <a href="#show" class="nav-link flowing-scroll">Шоу-программа</a>
+          <a href="#about_club" class="nav-link flowing-scroll">О клубе</a>
+          <a href="/gallery.html" class="nav-link">Галерея</a>
+          <a href="/main-menu.html" class="nav-link">Меню</a>
+          <a href="/vacancies.html" class="nav-link">Вакансии</a>
+          <a href="#scheme" class="nav-link flowing-scroll">Схема зала</a>
+          <a href="#address" class="nav-link flowing-scroll">Контакты</a>
+        </nav>
+
+        <div class="information">
+          <a href="tel:83452332525" class="information_phone"
+            ><img src="images/phone.png" class="information_phone-img" /> 8
+            (3452) 33 25 25</a
+          >
+          <a
+            href="https://goo.gl/maps/dqV6QVVhkP3WFtVGA"
+            class="information_address"
+            ><img src="images/place.png" class="information_address-img" /> г.
+            Тюмень ул. Пермякова 52/1</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div class="container">
+        <header class="header">
+          <div class="header_inner">
+            <div class="information">
+              <a
+                href="https://goo.gl/maps/dqV6QVVhkP3WFtVGA"
+                class="information_address"
+                ><img src="images/place.png" class="information_address-img" />
+                г. Тюмень ул. Пермякова 52/1</a
+              >
+              <a href="tel:83452332525" class="information_phone"
+                ><img src="images/phone.png" class="information_phone-img" /> 8
+                (3452) 33 25 25</a
+              >
+            </div>
+
+            <nav class="nav">
+              <a href="#show" class="nav-link flowing-scroll">Шоу-программа</a>
+              <a href="#about_club" class="nav-link flowing-scroll">О клубе</a>
+              <a href="/gallery.html" class="nav-link">Галерея</a>
+              <a href="#bar_menu" class="nav-link">Меню</a>
+              <a href="/vacancies.html" class="nav-link">Вакансии</a>
+              <a href="#scheme" class="nav-link flowing-scroll">Схема зала</a>
+              <a href="#address" class="nav-link flowing-scroll">Контакты</a>
+            </nav>
+          </div>
+        </header>
+
+        <div class="intro_inner">
+          <a href="/" class="logo"
+            ><img src="images/logo.png" class="logo_img"
+          /></a>
+          <div class="menu_btn" id="menu_btn"></div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages_inner">
+          <p class="advantages-title">Преимущества</p>
+          <div class="line"><img src="images/line.png" /></div>
+          <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+          <div class="advantages_blocks">
+            <div class="advantages_block">
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInLeft"
+              >
+                <img src="images/icon-1.png" />
+                <p class="advantages_elem-subtitle">
+                  Э�&nbsp;ОТИЧЕСКОЕ ШОУ-ВА�&nbsp;ЬЕТЕ
+                </p>
+              </div>
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInRight"
+              >
+                <img src="images/icon-2.png" />
+                <p class="advantages_elem-subtitle">
+                  ГА�&nbsp;АНТИЯ<br />КОНФИДЕНЦИАЛЬНОСТИ<br />И БЕЗОПАСНОСТИ
+                </p>
+              </div>
+            </div>
+            <div class="advantages_block">
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInLeft"
+              >
+                <img src="images/icon-36.png" />
+                <p class="advantages_elem-subtitle">
+                  �&nbsp;АЗНООБ�&nbsp;АЗИЕ<br />ОБВО�&nbsp;ОЖИТЕЛЬНЫХ<br />ТАНЦОВЩИЦ
+                </p>
+              </div>
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInRight"
+              >
+                <img src="images/icon-4.png" />
+                <p class="advantages_elem-subtitle">ИЗЫСКАННАЯ КУХНЯ</p>
+              </div>
+            </div>
+            <div class="advantages_block">
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInLeft"
+              >
+                <img src="images/icon-5.png" />
+                <p class="advantages_elem-subtitle">
+                  ОБШИ�&nbsp;НОЕ CRAZY-МЕНЮ
+                </p>
+              </div>
+              <div
+                class="advantages_elem wow animate__animated animate__fadeInRight"
+              >
+                <img src="images/icon-36.png" />
+                <p class="advantages_elem-subtitle">
+                  ПЕ�&nbsp;ВОКЛАССНЫЙ СЕ�&nbsp;ВИС
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages-slider">
+        <div class="item">
+          <img src="images/icon-1.png" />
+          <p class="advantages_elem-subtitle">
+            Э�&nbsp;ОТИЧЕСКОЕ ШОУ-ВА�&nbsp;ЬЕТЕ
+          </p>
+        </div>
+        <div class="item">
+          <img src="images/icon-2.png" />
+          <p class="advantages_elem-subtitle">
+            ГА�&nbsp;АНТИЯ<br />КОНФИДЕНЦИАЛЬНОСТИ<br />И БЕЗОПАСНОСТИ
+          </p>
+        </div>
+        <div class="item">
+          <img src="images/icon-36.png" />
+          <p class="advantages_elem-subtitle">
+            �&nbsp;АЗНООБ�&nbsp;АЗИЕ<br />ОБВО�&nbsp;ОЖИТЕЛЬНЫХ<br />ТАНЦОВЩИЦ
+          </p>
+        </div>
+        <div class="item">
+          <img src="images/icon-4.png" />
+          <p class="advantages_elem-subtitle">ИЗЫСКАННАЯ КУХНЯ</p>
+        </div>
+        <div class="item">
+          <img src="images/icon-5.png" />
+          <p class="advantages_elem-subtitle">ОБШИ�&nbsp;НОЕ CRAZY-МЕНЮ</p>
+        </div>
+        <div class="item">
+          <img src="images/icon-36.png" />
+          <p class="advantages_elem-subtitle">
+            ПЕ�&nbsp;ВОКЛАССНЫЙ СЕ�&nbsp;ВИС
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="show" id="show">
+      <div class="container">
+        <div class="show_inner">
+          <p class="show_title">Фееричное шоу - варьете</p>
+          <div class="line"><img src="images/line.png" /></div>
+          <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+        </div>
+
+        <div class="show-slider">
+          <div class="show-slider-item">
+            <iframe
+              width="449"
+              height="260"
+              src="https://www.youtube.com/embed/RuPz7vFIfJk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="367"
+              height="653"
+              src="https://www.youtube.com/embed/Tu60RIOQ5Wo"
+              title="Библиотека Джентльмен Клуб"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="367"
+              height="653"
+              src="https://www.youtube.com/embed/QTaAJrWg-Dc"
+              title="Библиотека Джентльмен Клуб"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <!-- <div class="show-slider-item">
+                    <iframe width="367" height="653" src="https://www.youtube.com/embed/OXNSSagGdqc" title=""Библиотека" Джентльмен Клуб" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div> -->
+          <div class="show-slider-item">
+            <iframe
+              width="367"
+              height="653"
+              src="https://www.youtube.com/embed/_bIZ-7vNSKY"
+              title="Библиотека Джентльмен Клуб"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="367"
+              height="653"
+              src="https://www.youtube.com/embed/jz_4JGPMKNE"
+              title="Библиотека Джентльмен Клуб"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="449"
+              height="260"
+              src="https://www.youtube.com/embed/w3nqXZmU8Kk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="449"
+              height="260"
+              src="https://www.youtube.com/embed/RuPz7vFIfJk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="show-slider-item">
+            <iframe
+              width="449"
+              height="260"
+              src="https://www.youtube.com/embed/RuPz7vFIfJk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_club" id="about_club">
+      <div class="container">
+        <div class="main-title-adaptive">
+          <p class="about_club-title">О клубе</p>
+          <div class="line"><img src="images/line.png" /></div>
+          <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+        </div>
+        <div class="about_club_inner">
+          <div class="about_club_inner-left">
+            <div class="excursion">
+              <p class="excursion-title">
+                Виртуальная экскурсия<br />по нашему клубу
+              </p>
+              <a
+                href="https://kuula.co/share/collection/7PpxK?fs=1&amp;vr=1&amp;sd=1&amp;gyro=0&amp;initload=0&amp;autorotate=0.02&amp;thumbs=1&amp;chromeless=1&amp;logo=-1"
+                class="excursion-btn"
+                ><img src="images/about-club-border.png" />Совершить прогулку</a
+              >
+            </div>
+          </div>
+          <div class="about_club_inner-right">
+            <div class="main-title">
+              <p class="about_club-title">О клубе</p>
+              <div class="line"><img src="images/line.png" /></div>
+              <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+            </div>
+
+            <div class="about_club_desc">
+              <p class="about_club_desc-item">
+                �&nbsp;еспектабельное заведение с роскошным интерьером
+              </p>
+              <p class="about_club_desc-item">Эксклюзивная шоу-программа</p>
+              <p class="about_club_desc-item">Приватный караоке-зал с шестом</p>
+              <p class="about_club_desc-item">Премиальная карта бара</p>
+              <p class="about_club_desc-item">Незабываемый эротик нон-стоп</p>
+              <p class="about_club_desc-item">Комфортные вип-ложи</p>
+              <p class="about_club_desc-item">Изысканная кухня</p>
+              <p class="about_club_desc-item">Безупречный сервис</p>
+            </div>
+          </div>
+
+          <div class="about_club_inner-left-adaptive">
+            <div class="excursion">
+              <p class="excursion-title">
+                Виртуальная экскурсия по нашему клубу
+              </p>
+              <a
+                href="https://kuula.co/share/collection/7PpxK?fs=1&amp;vr=1&amp;sd=1&amp;gyro=0&amp;initload=0&amp;autorotate=0.02&amp;thumbs=1&amp;chromeless=1&amp;logo=-1"
+                class="excursion-btn"
+                ><img src="images/about-club-border.png" />Совершить прогулку</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="main_gallery_img-hidden">
+      <img src="images/close.svg" class="img-close" />
+      <img src="images/7.png" class="main_gallery_img main_gallery_img-1" />
+      <img src="images/1.png" class="main_gallery_img main_gallery_img-2" />
+      <img src="images/2.png" class="main_gallery_img main_gallery_img-3" />
+      <img src="images/3.png" class="main_gallery_img main_gallery_img-4" />
+      <img src="images/8.png" class="main_gallery_img main_gallery_img-5" />
+      <img src="images/10.png" class="main_gallery_img main_gallery_img-6" />
+      <img src="images/4.png" class="main_gallery_img main_gallery_img-7" />
+      <img src="images/5.png" class="main_gallery_img main_gallery_img-8" />
+      <img src="images/6.png" class="main_gallery_img main_gallery_img-9" />
+      <img src="images/9.png" class="main_gallery_img main_gallery_img-10" />
+    </div>
+
+    <section class="main_gallery">
+      <div class="main_gallery-wrapper">
+        <img src="images/7.png" class="main_gallery-img" />
+        <img src="images/1.png" class="main_gallery-img" />
+        <img src="images/2.png" class="main_gallery-img" />
+        <img src="images/3.png" class="main_gallery-img" />
+        <img src="images/8.png" class="main_gallery-img remove" />
+        <img src="images/10.png" class="main_gallery-img remove" />
+        <img src="images/4.png" class="main_gallery-img remove" />
+        <img src="images/5.png" class="main_gallery-img remove" />
+        <img src="images/6.png" class="main_gallery-img remove" />
+        <img src="images/9.png" class="main_gallery-img remove" />
+      </div>
+      <div class="container">
+        <div class="main_gallery_inner">
+          <a href="/gallery.html" class="main_gallery-btn"
+            ><img src="images/border-main-galllery.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="main_menu" id="bar_menu">
+      <div class="container">
+        <div class="main_menu_wrapper">
+          <a href="/main-menu.html" class="main_menu_item">
+            <img src="images/kitchen.png" />
+            <p class="main_menu_item-title">кухня</p>
+          </a>
+          <div class="main_menu_inner">
+            <p class="main_menu-title">Меню</p>
+            <div class="line"><img src="images/line.png" /></div>
+            <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+          </div>
+          <a href="/bar.html" class="main_menu_item">
+            <img src="images/bar.png" />
+            <p class="main_menu_item-title">бар</p>
+          </a>
+        </div>
+        <a href="/craizy-menu.html" class="main_menu_item">
+          <img src="images/crazy-menu.png" />
+          <p class="main_menu_item-title">crazy-menu</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="main_menu-adaptive">
+      <div class="container">
+        <div class="main_menu_inner">
+          <p class="main_menu-title">Меню</p>
+          <div class="line"><img src="images/line.png" /></div>
+          <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+        </div>
+        <div class="main_menu_wrapper">
+          <a href="/main-menu.html" class="main_menu_item">
+            <img src="images/kitchen.png" />
+            <p class="main_menu_item-title">кухня</p>
+          </a>
+          <a href="/bar.html" class="main_menu_item">
+            <img src="images/bar.png" />
+            <p class="main_menu_item-title">бар</p>
+          </a>
+        </div>
+        <a href="/craizy-menu.html" class="main_menu_item">
+          <img src="images/crazy-menu.png" />
+          <p class="main_menu_item-title">crazy-menu</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="scheme" id="scheme">
+      <div class="container">
+        <div class="scheme_inner">
+          <p class="scheme-title">Схема зала</p>
+          <div class="line"><img src="images/line.png" /></div>
+          <p class="advantages-subtitle">GENTLEMAN CLUB</p>
+        </div>
+        <div class="scheme_wrapper">
+          <div class="room-img room-1-img"><img src="images/s1.jpg" /></div>
+          <div class="room-img room-2-img"><img src="images/s2.jpg" /></div>
+          <div class="room-img room-3-img"><img src="images/s3.jpg" /></div>
+          <div class="room-img room-4-img"><img src="images/s4.jpg" /></div>
+          <div class="room-img room-5-img"><img src="images/s5.jpg" /></div>
+          <div class="room-img room-6-img"><img src="images/s6.jpg" /></div>
+          <div class="room-img room-7-img"><img src="images/s7.jpg" /></div>
+          <div class="room-img room-8-img"><img src="images/s8.jpg" /></div>
+          <div class="room-img room-9-img"><img src="images/s9.jpg" /></div>
+          <div class="scheme_img">
+            <div class="scheme_img-wrapper">
+              <h4 class="room room-1">1</h4>
+              <h4 class="room room-2">2</h4>
+              <h4 class="room room-3">3</h4>
+              <h4 class="room room-4">4</h4>
+              <h4 class="room room-5">5</h4>
+              <h4 class="room room-6">6</h4>
+              <h4 class="room room-7">7</h4>
+              <h4 class="room room-8">8</h4>
+              <h4 class="room room-9">9</h4>
+            </div>
+            <img src="images/scheme.png" />
+          </div>
+          <div class="book-table">
+            <a href="tel:332525" class="book-table-btn"
+              ><img src="images/phone.png" /> Забронировать стол</a
+            >
+            <p class="book-table-descr">
+              Вы можете позвонить нам в любое<br />удобное для вас время!
+            </p>
+            <p class="book-table-namber">33 25 25</p>
+            <div class="line"><img src="images/line.png" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address" id="address">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.1328121735005!2d65.57452931612784!3d57.117692893365856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43bbe0e1c70c392d%3A0xc261552c56232550!2z0JTQttC10L3RgtC70YzQvNC10L0g0JrQu9GD0LEgItCR0LjQsdC70LjQvtGC0LXQutCwIg!5e0!3m2!1sru!2sru!4v1610617350370!5m2!1sru!2sru"
+        width="1920"
+        height="800"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+      <div class="container">
+        <div class="address_wrapper">
+          <div class="address_inner">
+            <p class="address-title">Мы ждем вас</p>
+            <div class="line"><img src="images/line.png" /></div>
+            <p class="book-table-namber">
+              <img src="images/phone.png" />33 25 25
+            </p>
+            <h2 class="address-location">Ежедневно с 21:00 до 06:00</h2>
+            <h3 class="address-price">
+              2000 рублей для джентльменов, 5000 рублей для дам, (Посещение
+              заведения для женщин,возможно только в сопровождении мужчины)
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address-adaptive" id="address">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2166.1328121735005!2d65.57452931612784!3d57.117692893365856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43bbe0e1c70c392d%3A0xc261552c56232550!2z0JTQttC10L3RgtC70YzQvNC10L0g0JrQu9GD0LEgItCR0LjQsdC70LjQvtGC0LXQutCwIg!5e0!3m2!1sru!2sru!4v1610617350370!5m2!1sru!2sru"
+        width="1920"
+        height="800"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
+      <div class="container">
+        <div class="address_wrapper">
+          <div class="address_inner">
+            <p class="address-title">Мы ждем вас</p>
+            <div class="line"><img src="images/line.png" /></div>
+            <p class="book-table-namber">
+              <img src="images/phone.png" />33 25 25
+            </p>
+            <h2 class="address-location">Ежедневно с 21:00 до 06:00</h2>
+            <h3 class="address-price">
+              2000 рублей для джентльменов, 5000 рублей для дам, (Посещение
+              заведения для женщин,возможно только в сопровождении мужчины)
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <nav class="nav">
+            <a href="#show" class="nav-link flowing-scroll">Шоу-программа</a>
+            <a href="#about_club" class="nav-link flowing-scroll">О клубе</a>
+            <a href="/gallery.html" class="nav-link">Галерея</a>
+            <a href="/main-menu.html" class="nav-link">Меню</a>
+            <a href="/vacancies.html" class="nav-link">Вакансии</a>
+            <a href="#scheme" class="nav-link flowing-scroll">Схема зала</a>
+            <a href="#address" class="nav-link flowing-scroll">Контакты</a>
+          </nav>
+
+          <a href="/index.html" class="logo-footer"
+            ><img src="images/logo-footer.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__content">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <a
+                data-fslightbox="gallery"
+                href="images/poster26.jpg"
+                class="swiper-slide slide-popup"
+              >
+                <img class="popup__img" src="images/poster26.jpg" alt="" />
+                <button class="popup__closed">
+                  <img
+                    src="images/close.svg"
+                    class="img-close popup__close-img"
+                  />
+                </button>
+              </a>
+              <a
+                data-fslightbox="gallery"
+                href="images/4.png"
+                class="swiper-slide slide-popup"
+              >
+                <img class="popup__img" src="images/4.png" alt="" />
+                <button class="popup__closed">
+                  <img
+                    src="images/close.svg"
+                    class="img-close popup__close-img"
+                  />
+                </button>
+              </a>
+              <a
+                data-fslightbox="gallery"
+                href="images/2.png"
+                class="swiper-slide slide-popup"
+              >
+                <img class="popup__img" src="images/2.png" alt="" />
+                <button class="popup__closed">
+                  <img
+                    src="images/close.svg"
+                    class="img-close popup__close-img"
+                  />
+                </button>
+              </a>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      //Афиша открыть если нету куки и задать куки
+      let popup = document.querySelector(".popup");
+      setTimeout(() => {
+        popup.classList.add("active");
+      }, 2000);
+      //Закрыть модалку по крестику
+      let popupClose = popup.querySelector(".popup__closed");
+      popupClose.addEventListener("click", () => {
+        popup.classList.remove("active");
+      });
+    </script>
+    <script src="js/fslightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper-popup.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+  </body>
+</html>
